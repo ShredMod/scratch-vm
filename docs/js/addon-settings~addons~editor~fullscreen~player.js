@@ -1317,7 +1317,7 @@ const manifest = {
     "id": "shiftKeysWarn"
   }, {
     "type": "warning",
-    "text": "The \"TurboWarp keys\" will only work in TurboWarp, not in Scratch.",
+    "text": "The \"ShredMod keys\" will only work in ShredMod, not in Scratch.",
     "id": "twKeysWarn"
   }],
   "settings": [{
@@ -1334,7 +1334,7 @@ const manifest = {
     "default": false
   }, {
     "dynamic": true,
-    "name": "Enable TurboWarp keys",
+    "name": "Enable ShredMod keys",
     "id": "twKeys",
     "type": "boolean",
     "default": false

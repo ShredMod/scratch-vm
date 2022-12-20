@@ -13145,7 +13145,7 @@ const PromptComponent = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__
       href: "https://packager.turbowarp.org",
       target: "_blank",
       rel: "noopener noreferrer"
-    }, 'TurboWarp Packager')
+    }, 'ShredMod Packager')
   },
   id: "tw.cantUseCloud"
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -17646,7 +17646,7 @@ const DisableCompiler = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__
   }),
   help: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"] // eslint-disable-next-line max-len
   , {
-    defaultMessage: "Disables the TurboWarp compiler. You may want to enable this while editing projects so that scripts update immediately. Otherwise, you should never enable this.",
+    defaultMessage: "Disables the ShredMod compiler. You may want to enable this while editing projects so that scripts update immediately. Otherwise, you should never enable this.",
     id: "tw.settingsModal.disableCompilerHelp"
   }),
   slug: "disable-compiler"
@@ -17719,7 +17719,7 @@ const StoreProjectOptions = ({
   id: "tw.settingsModal.storeProjectOptions"
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"] // eslint-disable-next-line max-len
 , {
-  defaultMessage: "Stores the selected settings in the project so they will be automatically applied when TurboWarp loads this project. Warp timer and disable compiler will not be saved.",
+  defaultMessage: "Stores the selected settings in the project so they will be automatically applied when ShredMod loads this project. Warp timer and disable compiler will not be saved.",
   id: "tw.settingsModal.storeProjectOptionsHelp"
 }))));
 
@@ -33836,13 +33836,13 @@ __webpack_require__.r(__webpack_exports__);
   helpLink: 'https://scratch.mit.edu/wedo'
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "TurboWarp Blocks",
+    defaultMessage: "ShredMod Blocks",
     id: "tw.twExtension.name"
   }),
   extensionId: 'tw',
   iconURL: _tw_tw_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Weird new blocks. Not compatible with Scratch.",
+    defaultMessage: "Weird new blocks. Not compatible with Scratch. Formerly in TurboWarp.",
     id: "tw.twExtension.description"
   }),
   featured: true,
