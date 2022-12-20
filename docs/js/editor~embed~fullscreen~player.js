@@ -28374,7 +28374,7 @@ __webpack_require__.r(__webpack_exports__);
 const SAFE_EXTENSION_SITES = [// Extensions that start with these URLs will be loaded automatically and without a sandbox.
 // Be careful adding entries to this list.
 // Each entry MUST have a trailing / after the domain for this to provide any security.
-'https://extensions.turbowarp.org/', // For development.
+'https://extensions.turbowarp.org/', 'https://shredmod.github.io/extensions/', // For development.
 'http://localhost:8000/'];
 
 class TWSecurityManagerComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
