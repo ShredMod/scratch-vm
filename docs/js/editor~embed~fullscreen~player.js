@@ -33716,6 +33716,22 @@ __webpack_require__.r(__webpack_exports__);
   internetConnectionRequired: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Speech to Text",
+    id: "gui.extension.speech2text.name"
+  }),
+  extensionId: 'speech2text',
+  collaborator: 'Amazon Web Services',
+  iconURL: _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_8___default.a,
+  insetIconURL: _text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_9___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Talk to your projects.",
+    id: "gui.extension.speech2text.description"
+  }),
+  featured: true,
+  internetConnectionRequired: true,
+  incompatibleWithScratch: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Translate",
     id: "gui.extension.translate.name"
   }),
