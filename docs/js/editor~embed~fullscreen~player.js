@@ -33897,6 +33897,18 @@ __webpack_require__.r(__webpack_exports__);
   featured: true,
   collaborator: 'showierdata9978',
   incompatibleWithScratch: true
+}, {
+  name: "CloudLink",
+  extensionId: 'cloudlink',
+  iconURL: _tw_tw_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "CloudLink: Link to the Cloud",
+    id: "gui.extension.cloudlink.description"
+  }),
+  featured: true,
+  collaborator: 'MikeDev101',
+  internetConnectionRequired: true,
+  incompatibleWithScratch: true
 }]);
 
 /***/ }),

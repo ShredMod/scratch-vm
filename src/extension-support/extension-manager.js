@@ -29,7 +29,8 @@ const builtinExtensions = {
     // tw: core extension
     tw: () => require('../extensions/tw'),
     utils: () => require('../extensions/scratch3_utils'),
-    gameutils: () => require('../extensions/scratch3_gameutils')
+    gameutils: () => require('../extensions/scratch3_gameutils'),
+    cloudlink: () => require('../extensions/scratch3_cloudlink')
 };
 
 /**
