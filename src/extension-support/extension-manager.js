@@ -27,7 +27,8 @@ const builtinExtensions = {
     gdxfor: () => require('../extensions/scratch3_utils'),
     // tw: core extension
     tw: () => require('../extensions/tw'),
-    utils: () => require('../extensions/scratch3_utils')
+    utils: () => require('../extensions/scratch3_utils'),
+    gameutils: () => require('../extensions/scratch3_gameutils')
 };
 
 /**
