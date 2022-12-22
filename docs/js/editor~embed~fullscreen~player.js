@@ -33470,6 +33470,17 @@ module.exports = __webpack_require__.p + "static/assets/bf3ee9d7d91a231cde773f88
 
 /***/ }),
 
+/***/ "./src/lib/libraries/extensions/cloudlink/cloudlinkThumb.png":
+/*!*******************************************************************!*\
+  !*** ./src/lib/libraries/extensions/cloudlink/cloudlinkThumb.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/64213236c2ea6563c91f8e7ade172578.png";
+
+/***/ }),
+
 /***/ "./src/lib/libraries/extensions/custom/custom.svg":
 /*!********************************************************!*\
   !*** ./src/lib/libraries/extensions/custom/custom.svg ***!
@@ -33511,6 +33522,17 @@ module.exports = __webpack_require__.p + "static/assets/3286e2838658ebdb82f62d06
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/6608d56b3dce2738b2b137569d305d3b.png";
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/gameutils/gameutils.svg":
+/*!**************************************************************!*\
+  !*** ./src/lib/libraries/extensions/gameutils/gameutils.svg ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/e8128b2b21cb96627a40077faf71cef6.svg";
 
 /***/ }),
 
@@ -33621,6 +33643,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _tw_tw_svg__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_tw_tw_svg__WEBPACK_IMPORTED_MODULE_31__);
 /* harmony import */ var _custom_custom_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./custom/custom.svg */ "./src/lib/libraries/extensions/custom/custom.svg");
 /* harmony import */ var _custom_custom_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_custom_custom_svg__WEBPACK_IMPORTED_MODULE_32__);
+/* harmony import */ var _utils_utilites_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./utils/utilites.svg */ "./src/lib/libraries/extensions/utils/utilites.svg");
+/* harmony import */ var _utils_utilites_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_utils_utilites_svg__WEBPACK_IMPORTED_MODULE_33__);
+/* harmony import */ var _gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./gameutils/gameutils.svg */ "./src/lib/libraries/extensions/gameutils/gameutils.svg");
+/* harmony import */ var _gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./cloudlink/cloudlinkThumb.png */ "./src/lib/libraries/extensions/cloudlink/cloudlinkThumb.png");
+/* harmony import */ var _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_35__);
+/* harmony import */ var _js_js_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./js/js.svg */ "./src/lib/libraries/extensions/js/js.svg");
+/* harmony import */ var _js_js_svg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_js_js_svg__WEBPACK_IMPORTED_MODULE_36__);
 
 
 
@@ -33644,6 +33674,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
+
+
+
 
 
 
@@ -33878,7 +33912,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "Utilites",
   extensionId: 'utils',
-  iconURL: _tw_tw_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
+  iconURL: _utils_utilites_svg__WEBPACK_IMPORTED_MODULE_33___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Utilites for Scratch",
     id: "gui.extension.utils.description"
@@ -33889,7 +33923,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "GameUtils",
   extensionId: 'gameutils',
-  iconURL: _tw_tw_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
+  iconURL: _gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "The Extension that Loads Sprites, costumes, etc.",
     id: "gui.extension.gameutils.description"
@@ -33900,7 +33934,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "CloudLink",
   extensionId: 'cloudlink',
-  iconURL: _tw_tw_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
+  iconURL: _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_35___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "CloudLink: Link to the Cloud",
     id: "gui.extension.cloudlink.description"
@@ -33909,7 +33943,29 @@ __webpack_require__.r(__webpack_exports__);
   collaborator: 'MikeDev101',
   internetConnectionRequired: true,
   incompatibleWithScratch: true
+}, {
+  name: "JavaScript",
+  extensionId: 'js',
+  iconURL: _js_js_svg__WEBPACK_IMPORTED_MODULE_36___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "JavaScript with Scratch",
+    id: "gui.extension.js.description"
+  }),
+  featured: true,
+  collaborator: 'The_Mad_Punter',
+  incompatibleWithScratch: true
 }]);
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/js/js.svg":
+/*!************************************************!*\
+  !*** ./src/lib/libraries/extensions/js/js.svg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/59428ca5b48ecdf60132ddbc82baaa4a.svg";
 
 /***/ }),
 
@@ -34064,6 +34120,17 @@ module.exports = __webpack_require__.p + "static/assets/b6162ffbfe48d4b6c67f0b46
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/4d2b4af5075d8b7bf7cd7bf046458045.svg";
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/utils/utilites.svg":
+/*!*********************************************************!*\
+  !*** ./src/lib/libraries/extensions/utils/utilites.svg ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/0418b3b4a528031d00e0d1d576f672f2.svg";
 
 /***/ }),
 
