@@ -33651,6 +33651,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_35__);
 /* harmony import */ var _js_js_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./js/js.svg */ "./src/lib/libraries/extensions/js/js.svg");
 /* harmony import */ var _js_js_svg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_js_js_svg__WEBPACK_IMPORTED_MODULE_36__);
+/* harmony import */ var _save_save_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./save/save.svg */ "./src/lib/libraries/extensions/save/save.svg");
+/* harmony import */ var _save_save_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_save_save_svg__WEBPACK_IMPORTED_MODULE_37__);
 
 
 
@@ -33674,6 +33676,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
 
 
 
@@ -33954,6 +33957,17 @@ __webpack_require__.r(__webpack_exports__);
   featured: true,
   collaborator: 'The_Mad_Punter',
   incompatibleWithScratch: true
+}, {
+  name: "Save",
+  extensionId: 'save',
+  iconURL: _save_save_svg__WEBPACK_IMPORTED_MODULE_37___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Save with Scratch",
+    id: "gui.extension.save.description"
+  }),
+  featured: true,
+  collaborator: 'The_Mad_Punter',
+  incompatibleWithScratch: true
 }]);
 
 /***/ }),
@@ -34065,6 +34079,17 @@ module.exports = __webpack_require__.p + "static/assets/800f6f1573677d59954e8d31
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/7679e8aa3b5a6b745823e00a7b950065.png";
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/save/save.svg":
+/*!****************************************************!*\
+  !*** ./src/lib/libraries/extensions/save/save.svg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/f7bed206888170bb7e11cafcd2e2c230.svg";
 
 /***/ }),
 
