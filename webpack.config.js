@@ -7,7 +7,9 @@ const base = {
     devServer: {
         contentBase: false,
         host: '0.0.0.0',
-        port: process.env.PORT || 8073
+        port: process.env.PORT || 8073,
+        compress: true,
+        disableHostCheck: true,
     },
     devtool: 'cheap-module-source-map',
     output: {
