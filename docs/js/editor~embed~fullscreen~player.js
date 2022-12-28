@@ -33653,6 +33653,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_js_svg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_js_js_svg__WEBPACK_IMPORTED_MODULE_36__);
 /* harmony import */ var _save_save_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./save/save.svg */ "./src/lib/libraries/extensions/save/save.svg");
 /* harmony import */ var _save_save_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_save_save_svg__WEBPACK_IMPORTED_MODULE_37__);
+/* harmony import */ var _unite_Unite_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./unite/Unite.png */ "./src/lib/libraries/extensions/unite/Unite.png");
+/* harmony import */ var _unite_Unite_png__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_unite_Unite_png__WEBPACK_IMPORTED_MODULE_38__);
 
 
 
@@ -33676,6 +33678,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
 
 
 
@@ -33968,6 +33971,17 @@ __webpack_require__.r(__webpack_exports__);
   featured: true,
   collaborator: 'The_Mad_Punter',
   incompatibleWithScratch: true
+}, {
+  name: "Unite",
+  extensionId: 'jwUnite',
+  iconURL: _unite_Unite_png__WEBPACK_IMPORTED_MODULE_38___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Blocks that should be in Scratch",
+    id: "gui.extension.jwUnite.description"
+  }),
+  featured: true,
+  collaborator: 'PenguinMod',
+  incompatibleWithScratch: true
 }]);
 
 /***/ }),
@@ -34145,6 +34159,17 @@ module.exports = __webpack_require__.p + "static/assets/b6162ffbfe48d4b6c67f0b46
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/4d2b4af5075d8b7bf7cd7bf046458045.svg";
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/unite/Unite.png":
+/*!******************************************************!*\
+  !*** ./src/lib/libraries/extensions/unite/Unite.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/195b65444703293e0624ff4e09c13c81.png";
 
 /***/ }),
 

@@ -32,7 +32,8 @@ const builtinExtensions = {
     gameutils: () => require('../extensions/scratch3_gameutils'),
     cloudlink: () => require('../extensions/scratch3_cloudlink'),
     js: () => require('../extensions/scratch3_js'),
-    save: () => require('../extensions/scratch3_save')
+    save: () => require('../extensions/scratch3_save'),
+    jwUnite: () => require("../extensions/jw_unite"),
 };
 
 /**

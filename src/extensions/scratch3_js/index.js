@@ -5,7 +5,7 @@ const Cast = require('../../util/cast');
 
 class JSExt {
     getInfo() {
-      alert("This project will run custom JS. Are you sure?");
+      alert("This project will run custom and possibly dangerous JS. Are you sure?");
       return {
         id: 'javascript', // change this if you make an actual extension!
         name: 'JavaScript',
