@@ -33655,6 +33655,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _save_save_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_save_save_svg__WEBPACK_IMPORTED_MODULE_37__);
 /* harmony import */ var _unite_Unite_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./unite/Unite.png */ "./src/lib/libraries/extensions/unite/Unite.png");
 /* harmony import */ var _unite_Unite_png__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_unite_Unite_png__WEBPACK_IMPORTED_MODULE_38__);
+/* harmony import */ var _runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./runtime/runtime.png */ "./src/lib/libraries/extensions/runtime/runtime.png");
+/* harmony import */ var _runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39__);
 
 
 
@@ -33678,6 +33680,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
 
 
 
@@ -33982,6 +33985,17 @@ __webpack_require__.r(__webpack_exports__);
   featured: true,
   collaborator: 'PenguinMod',
   incompatibleWithScratch: true
+}, {
+  name: "Runtime",
+  extensionId: 'jgruntime',
+  iconURL: _runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Runtime Utilites from PenguinMod",
+    id: "gui.extension.jgRuntime.description"
+  }),
+  featured: true,
+  collaborator: 'PenguinMod',
+  incompatibleWithScratch: true
 }]);
 
 /***/ }),
@@ -34093,6 +34107,17 @@ module.exports = __webpack_require__.p + "static/assets/800f6f1573677d59954e8d31
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/7679e8aa3b5a6b745823e00a7b950065.png";
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/runtime/runtime.png":
+/*!**********************************************************!*\
+  !*** ./src/lib/libraries/extensions/runtime/runtime.png ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/3eb1599270a7125b2240e7ddc0d5bda1.png";
 
 /***/ }),
 

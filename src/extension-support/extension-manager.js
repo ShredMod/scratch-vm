@@ -34,6 +34,7 @@ const builtinExtensions = {
     js: () => require('../extensions/scratch3_js'),
     save: () => require('../extensions/scratch3_save'),
     jwUnite: () => require("../extensions/jw_unite"),
+    jgruntime: () => require("../extensions/jg_runtime")
 };
 
 /**
