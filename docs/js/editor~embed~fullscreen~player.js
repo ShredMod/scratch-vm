@@ -33470,6 +33470,17 @@ module.exports = __webpack_require__.p + "static/assets/bf3ee9d7d91a231cde773f88
 
 /***/ }),
 
+/***/ "./src/lib/libraries/extensions/box2d/griffpatch_physics.png":
+/*!*******************************************************************!*\
+  !*** ./src/lib/libraries/extensions/box2d/griffpatch_physics.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/f87904843f21a05464c4acc3ec4d368d.png";
+
+/***/ }),
+
 /***/ "./src/lib/libraries/extensions/cloudlink/cloudlinkThumb.png":
 /*!*******************************************************************!*\
   !*** ./src/lib/libraries/extensions/cloudlink/cloudlinkThumb.png ***!
@@ -33657,6 +33668,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _unite_Unite_png__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_unite_Unite_png__WEBPACK_IMPORTED_MODULE_38__);
 /* harmony import */ var _runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./runtime/runtime.png */ "./src/lib/libraries/extensions/runtime/runtime.png");
 /* harmony import */ var _runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var _box2d_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./box2d/griffpatch_physics.png */ "./src/lib/libraries/extensions/box2d/griffpatch_physics.png");
+/* harmony import */ var _box2d_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_box2d_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_40__);
 
 
 
@@ -33680,6 +33693,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
 
 
 
@@ -33995,6 +34009,17 @@ __webpack_require__.r(__webpack_exports__);
   }),
   featured: true,
   collaborator: 'PenguinMod',
+  incompatibleWithScratch: true
+}, {
+  name: "Box2D",
+  extensionId: 'box2d',
+  iconURL: _box2d_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_40___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Box2D",
+    id: "gui.extension.box2d.description"
+  }),
+  featured: true,
+  collaborator: 'griffpatch',
   incompatibleWithScratch: true
 }]);
 
