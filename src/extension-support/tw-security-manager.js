@@ -37,7 +37,7 @@ class SecurityManager {
      */
     canLoadExtensionFromProject (extensionURL) {
         // Default to false for security
-        return Promise.resolve(True);
+        return Promise.resolve(true);
     }
 }
 
