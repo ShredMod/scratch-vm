@@ -34001,7 +34001,7 @@ __webpack_require__.r(__webpack_exports__);
   incompatibleWithScratch: true
 }, {
   name: "Runtime",
-  extensionId: 'jgruntime',
+  extensionId: 'jgRuntime',
   iconURL: _runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Runtime Utilites from PenguinMod",

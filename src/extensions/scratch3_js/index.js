@@ -7,7 +7,7 @@ class JSExt {
     getInfo() {
       alert("This project will run custom and possibly dangerous JS. Are you sure?");
       return {
-        id: 'javascript', // change this if you make an actual extension!
+        id: 'js', // change this if you make an actual extension!
         name: 'JavaScript',
         blocks: [
           {

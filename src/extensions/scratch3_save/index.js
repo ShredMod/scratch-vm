@@ -6,7 +6,7 @@ const Cast = require('../../util/cast');
 class SaveExt {
     getInfo() {
       return {
-        id: 'saveext', // change this if you make an actual extension!
+        id: 'save', // change this if you make an actual extension!
         name: 'Save Data',
         blocks: [
           {

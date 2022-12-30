@@ -394,7 +394,7 @@ class Scratch3Griffpatch {
      */
     getInfo () {
         return {
-            id: 'griffpatch',
+            id: 'box2d',
             name: formatMessage({
                 id: 'griffpatch.categoryName',
                 default: 'Physics',
