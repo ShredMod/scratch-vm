@@ -33670,6 +33670,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39__);
 /* harmony import */ var _box2d_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./box2d/griffpatch_physics.png */ "./src/lib/libraries/extensions/box2d/griffpatch_physics.png");
 /* harmony import */ var _box2d_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_box2d_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_40__);
+/* harmony import */ var _shredsdk_shredsdk_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./shredsdk/shredsdk.svg */ "./src/lib/libraries/extensions/shredsdk/shredsdk.svg");
+/* harmony import */ var _shredsdk_shredsdk_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_shredsdk_shredsdk_svg__WEBPACK_IMPORTED_MODULE_41__);
 
 
 
@@ -33693,6 +33695,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
 
 
 
@@ -34021,6 +34024,17 @@ __webpack_require__.r(__webpack_exports__);
   featured: true,
   collaborator: 'griffpatch',
   incompatibleWithScratch: true
+}, {
+  name: "ShredSDK",
+  extensionId: 'shredsdk',
+  iconURL: _shredsdk_shredsdk_svg__WEBPACK_IMPORTED_MODULE_41___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "A development kit for making good web games",
+    id: "gui.extension.shredsdk.description"
+  }),
+  featured: true,
+  collaborator: 'The_Mad_Punter',
+  incompatibleWithScratch: true
 }]);
 
 /***/ }),
@@ -34154,6 +34168,17 @@ module.exports = __webpack_require__.p + "static/assets/3eb1599270a7125b2240e7dd
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/f7bed206888170bb7e11cafcd2e2c230.svg";
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/shredsdk/shredsdk.svg":
+/*!************************************************************!*\
+  !*** ./src/lib/libraries/extensions/shredsdk/shredsdk.svg ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/c0165237067cd8a45029782998da84ed.svg";
 
 /***/ }),
 

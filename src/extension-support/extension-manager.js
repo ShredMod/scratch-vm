@@ -35,7 +35,8 @@ const builtinExtensions = {
     save: () => require('../extensions/scratch3_save'),
     jwUnite: () => require("../extensions/jw_unite"),
     jgRuntime: () => require("../extensions/jg_runtime"),
-    box2d: () => require('../extensions/griffpatch_box2D')
+    box2d: () => require('../extensions/griffpatch_box2D'),
+    shredsdk: () => require('../extensions/shredsdk')
 };
 
 /**
