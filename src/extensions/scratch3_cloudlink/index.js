@@ -62,7 +62,7 @@ function autoConvert(value) {
 	return value;
 }
 
-**
+/*
  * Class for Proto blocks
  * @constructor
  */
