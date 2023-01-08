@@ -62,6 +62,10 @@ function autoConvert(value) {
 	return value;
 }
 
+/*
+ * Class for Proto blocks
+ * @constructor
+ */
 class CloudLink {
 	constructor (runtime, extensionId) {
 		// Extension stuff
