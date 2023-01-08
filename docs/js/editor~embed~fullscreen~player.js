@@ -21473,15 +21473,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! scratch-vm */ "./node_modules/scratch-vm/src/index.js");
 /* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(scratch_vm__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/libraries/extensions/index.jsx */ "./src/lib/libraries/extensions/index.jsx");
-/* harmony import */ var _components_library_library_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/library/library.jsx */ "./src/components/library/library.jsx");
-/* harmony import */ var _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/action-menu/icon--sprite.svg */ "./src/components/action-menu/icon--sprite.svg");
-/* harmony import */ var _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _lib_libraries_extension_tags__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/libraries/extension-tags */ "./src/lib/libraries/extension-tags.js");
+/* harmony import */ var _lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/libraries/extensions/index.jsx */ "./src/lib/libraries/extensions/index.jsx");
+/* harmony import */ var _components_library_library_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/library/library.jsx */ "./src/components/library/library.jsx");
+/* harmony import */ var _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/action-menu/icon--sprite.svg */ "./src/components/action-menu/icon--sprite.svg");
+/* harmony import */ var _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_8__);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -21553,12 +21555,12 @@ class ExtensionLibrary extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Pure
   }
 
   render() {
-    const extensionLibraryThumbnailData = _lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_5__["default"].map(extension => _objectSpread({
-      rawURL: extension.iconURL || _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_7___default.a
+    const extensionLibraryThumbnailData = _lib_libraries_extensions_index_jsx__WEBPACK_IMPORTED_MODULE_6__["default"].map(extension => _objectSpread({
+      rawURL: extension.iconURL || _components_action_menu_icon_sprite_svg__WEBPACK_IMPORTED_MODULE_8___default.a
     }, extension));
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_library_library_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_library_library_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
       data: extensionLibraryThumbnailData,
-      filterable: false,
+      tags: _lib_libraries_extension_tags__WEBPACK_IMPORTED_MODULE_5__["default"],
       id: "extensionLibrary",
       title: this.props.intl.formatMessage(messages.extensionTitle),
       visible: this.props.visible,
@@ -33426,6 +33428,30 @@ const translateVideo = (videoId, locale) => {
 
 /***/ }),
 
+/***/ "./src/lib/libraries/extension-tags.js":
+/*!*********************************************!*\
+  !*** ./src/lib/libraries/extension-tags.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tag-messages.js */ "./src/lib/libraries/tag-messages.js");
+
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  tag: 'scratch',
+  intlLabel: _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__["default"].scratch
+}, {
+  tag: 'utils',
+  intlLabel: _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__["default"].utils
+}, {
+  tag: 'others',
+  intlLabel: _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__["default"].others
+}]);
+
+/***/ }),
+
 /***/ "./src/lib/libraries/extensions/boost/boost-button-illustration.svg":
 /*!**************************************************************************!*\
   !*** ./src/lib/libraries/extensions/boost/boost-button-illustration.svg ***!
@@ -33725,6 +33751,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Music",
     id: "gui.extension.music.name"
   }),
+  tags: ["scratch"],
   extensionId: 'music',
   iconURL: _music_music_png__WEBPACK_IMPORTED_MODULE_2___default.a,
   insetIconURL: _music_music_small_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
@@ -33738,6 +33765,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Pen",
     id: "gui.extension.pen.name"
   }),
+  tags: ["scratch"],
   extensionId: 'pen',
   iconURL: _pen_pen_png__WEBPACK_IMPORTED_MODULE_4___default.a,
   insetIconURL: _pen_pen_small_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
@@ -33751,6 +33779,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Video Sensing",
     id: "gui.extension.videosensing.name"
   }),
+  tags: ["scratch"],
   extensionId: 'videoSensing',
   iconURL: _videoSensing_video_sensing_png__WEBPACK_IMPORTED_MODULE_6___default.a,
   insetIconURL: _videoSensing_video_sensing_small_svg__WEBPACK_IMPORTED_MODULE_7___default.a,
@@ -33764,6 +33793,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Text to Speech",
     id: "gui.extension.text2speech.name"
   }),
+  tags: ["scratch"],
   extensionId: 'text2speech',
   collaborator: 'Amazon Web Services',
   iconURL: _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_8___default.a,
@@ -33776,25 +33806,10 @@ __webpack_require__.r(__webpack_exports__);
   internetConnectionRequired: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Speech to Text",
-    id: "gui.extension.speech2text.name"
-  }),
-  extensionId: 'speech2text',
-  collaborator: 'Amazon Web Services',
-  iconURL: _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_8___default.a,
-  insetIconURL: _text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_9___default.a,
-  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Talk to your projects.",
-    id: "gui.extension.speech2text.description"
-  }),
-  featured: true,
-  internetConnectionRequired: true,
-  incompatibleWithScratch: true
-}, {
-  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Translate",
     id: "gui.extension.translate.name"
   }),
+  tags: ["scratch"],
   extensionId: 'translate',
   collaborator: 'Google',
   iconURL: _translate_translate_png__WEBPACK_IMPORTED_MODULE_10___default.a,
@@ -33807,6 +33822,7 @@ __webpack_require__.r(__webpack_exports__);
   internetConnectionRequired: true
 }, {
   name: 'Makey Makey',
+  tags: ["scratch"],
   extensionId: 'makeymakey',
   collaborator: 'JoyLabz',
   iconURL: _makeymakey_makeymakey_png__WEBPACK_IMPORTED_MODULE_12___default.a,
@@ -33818,6 +33834,7 @@ __webpack_require__.r(__webpack_exports__);
   featured: true
 }, {
   name: 'micro:bit',
+  tags: ["scratch"],
   extensionId: 'microbit',
   collaborator: 'micro:bit',
   iconURL: _microbit_microbit_png__WEBPACK_IMPORTED_MODULE_14___default.a,
@@ -33841,6 +33858,7 @@ __webpack_require__.r(__webpack_exports__);
   helpLink: 'https://scratch.mit.edu/microbit'
 }, {
   name: 'LEGO MINDSTORMS EV3',
+  tags: ["scratch"],
   extensionId: 'ev3',
   collaborator: 'LEGO',
   iconURL: _ev3_ev3_png__WEBPACK_IMPORTED_MODULE_17___default.a,
@@ -33864,6 +33882,7 @@ __webpack_require__.r(__webpack_exports__);
   helpLink: 'https://scratch.mit.edu/ev3'
 }, {
   name: 'LEGO BOOST',
+  tags: ["scratch"],
   extensionId: 'boost',
   collaborator: 'LEGO',
   iconURL: _boost_boost_png__WEBPACK_IMPORTED_MODULE_24___default.a,
@@ -33888,6 +33907,7 @@ __webpack_require__.r(__webpack_exports__);
   helpLink: 'https://scratch.mit.edu/boost'
 }, {
   name: 'LEGO Education WeDo 2.0',
+  tags: ["scratch"],
   extensionId: 'wedo2',
   collaborator: 'LEGO',
   iconURL: _wedo2_wedo_png__WEBPACK_IMPORTED_MODULE_20___default.a,
@@ -33916,6 +33936,7 @@ __webpack_require__.r(__webpack_exports__);
     id: "tw.twExtension.name"
   }),
   extensionId: 'tw',
+  tags: ["others"],
   iconURL: _tw_tw_svg__WEBPACK_IMPORTED_MODULE_31___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Weird new blocks. Not compatible with Scratch. Formerly in TurboWarp.",
@@ -33928,6 +33949,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Custom Extension",
     id: "tw.customExtension.name"
   }),
+  tags: ["others"],
   extensionId: '',
   iconURL: _custom_custom_svg__WEBPACK_IMPORTED_MODULE_32___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
@@ -33937,6 +33959,7 @@ __webpack_require__.r(__webpack_exports__);
   featured: true
 }, {
   name: "Utilites",
+  tags: ["utils"],
   extensionId: 'utils',
   iconURL: _utils_utilites_svg__WEBPACK_IMPORTED_MODULE_33___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
@@ -33948,6 +33971,7 @@ __webpack_require__.r(__webpack_exports__);
   incompatibleWithScratch: true
 }, {
   name: "GameUtils",
+  tags: ["utils"],
   extensionId: 'gameutils',
   iconURL: _gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
@@ -33960,6 +33984,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "CloudLink",
   extensionId: 'cloudlink',
+  tags: ["utils"],
   iconURL: _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_35___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "CloudLink: Link to the Cloud",
@@ -33972,6 +33997,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "JavaScript",
   extensionId: 'js',
+  tags: ["utils"],
   iconURL: _js_js_svg__WEBPACK_IMPORTED_MODULE_36___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "JavaScript with Scratch",
@@ -33983,6 +34009,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "Save",
   extensionId: 'save',
+  tags: ["utils"],
   iconURL: _save_save_svg__WEBPACK_IMPORTED_MODULE_37___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Save with Scratch",
@@ -33994,6 +34021,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "Unite",
   extensionId: 'jwUnite',
+  tags: ["utils"],
   iconURL: _unite_Unite_png__WEBPACK_IMPORTED_MODULE_38___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Blocks that should be in Scratch",
@@ -34005,6 +34033,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "Runtime",
   extensionId: 'jgRuntime',
+  tags: ["utils"],
   iconURL: _runtime_runtime_png__WEBPACK_IMPORTED_MODULE_39___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Runtime Utilites from PenguinMod",
@@ -34016,6 +34045,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "Box2D",
   extensionId: 'box2d',
+  tags: ["others"],
   iconURL: _box2d_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_40___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Box2D",
@@ -34026,6 +34056,7 @@ __webpack_require__.r(__webpack_exports__);
   incompatibleWithScratch: true
 }, {
   name: "ShredSDK",
+  tags: ["utils"],
   extensionId: 'shredsdk',
   iconURL: _shredsdk_shredsdk_svg__WEBPACK_IMPORTED_MODULE_41___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
@@ -34520,6 +34551,30 @@ __webpack_require__.r(__webpack_exports__);
   letters: {
     "id": "gui.libraryTags.letters",
     "defaultMessage": "Letters"
+  },
+  hardware: {
+    "id": "gui.libraryTags.hardware",
+    "defaultMessage": "Hardware"
+  },
+  ai: {
+    "id": "gui.libraryTags.ai",
+    "defaultMessage": "AI"
+  },
+  network: {
+    "id": "gui.libraryTags.network",
+    "defaultMessage": "Network"
+  },
+  scratch: {
+    "id": "gui.libraryTags.scratch",
+    "defaultMessage": "Scratch"
+  },
+  others: {
+    "id": "gui.libraryTags.others",
+    "defaultMessage": "Others"
+  },
+  utils: {
+    "id": "gui.libraryTags.utils",
+    "defaultMessage": "Utilites"
   }
 }));
 
