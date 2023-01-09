@@ -33521,6 +33521,17 @@ module.exports = __webpack_require__.p + "static/assets/64213236c2ea6563c91f8e7a
 
 /***/ }),
 
+/***/ "./src/lib/libraries/extensions/console/console.svg":
+/*!**********************************************************!*\
+  !*** ./src/lib/libraries/extensions/console/console.svg ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/1336c1fc0b323c8f1cf0291f68461ff0.svg";
+
+/***/ }),
+
 /***/ "./src/lib/libraries/extensions/custom/custom.svg":
 /*!********************************************************!*\
   !*** ./src/lib/libraries/extensions/custom/custom.svg ***!
@@ -33701,6 +33712,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _box2d_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_box2d_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_40__);
 /* harmony import */ var _shredsdk_shredsdk_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./shredsdk/shredsdk.svg */ "./src/lib/libraries/extensions/shredsdk/shredsdk.svg");
 /* harmony import */ var _shredsdk_shredsdk_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_shredsdk_shredsdk_svg__WEBPACK_IMPORTED_MODULE_41__);
+/* harmony import */ var _console_console_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./console/console.svg */ "./src/lib/libraries/extensions/console/console.svg");
+/* harmony import */ var _console_console_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_console_console_svg__WEBPACK_IMPORTED_MODULE_42__);
 
 
 
@@ -33724,6 +33737,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
 
 
 
@@ -34065,6 +34079,18 @@ __webpack_require__.r(__webpack_exports__);
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "A development kit for making good web games",
     id: "gui.extension.shredsdk.description"
+  }),
+  featured: true,
+  collaborator: 'The_Mad_Punter',
+  incompatibleWithScratch: true
+}, {
+  name: "Console SDK (Gamepad)",
+  tags: ["utils", "sdks"],
+  extensionId: 'Gamepad',
+  iconURL: _console_console_svg__WEBPACK_IMPORTED_MODULE_42___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Console SDK (including controller support)",
+    id: "gui.extension.gamepad.description"
   }),
   featured: true,
   collaborator: 'The_Mad_Punter',

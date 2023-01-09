@@ -36,7 +36,8 @@ const builtinExtensions = {
     jwUnite: () => require("../extensions/jw_unite"),
     jgRuntime: () => require("../extensions/jg_runtime"),
     box2d: () => require('../extensions/griffpatch_box2D'),
-    shredsdk: () => require('../extensions/shredsdk')
+    shredsdk: () => require('../extensions/shredsdk'),
+    Gamepad: () => require('../extensions/console')
 };
 
 /**
