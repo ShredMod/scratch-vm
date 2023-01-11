@@ -37,7 +37,8 @@ const builtinExtensions = {
     jgRuntime: () => require("../extensions/jg_runtime"),
     box2d: () => require('../extensions/griffpatch_box2D'),
     shredsdk: () => require('../extensions/shredsdk'),
-    Gamepad: () => require('../extensions/console')
+    Gamepad: () => require('../extensions/console'),
+    adabrowser: () => require('../extensions/ada_browser'),
 };
 
 /**

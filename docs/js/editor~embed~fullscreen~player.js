@@ -33510,6 +33510,17 @@ module.exports = __webpack_require__.p + "static/assets/f87904843f21a05464c4acc3
 
 /***/ }),
 
+/***/ "./src/lib/libraries/extensions/browser/ada.png":
+/*!******************************************************!*\
+  !*** ./src/lib/libraries/extensions/browser/ada.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/40998229311219c2117265d5e4bd9745.png";
+
+/***/ }),
+
 /***/ "./src/lib/libraries/extensions/cloudlink/cloudlinkThumb.png":
 /*!*******************************************************************!*\
   !*** ./src/lib/libraries/extensions/cloudlink/cloudlinkThumb.png ***!
@@ -33714,6 +33725,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _shredsdk_shredsdk_svg__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_shredsdk_shredsdk_svg__WEBPACK_IMPORTED_MODULE_41__);
 /* harmony import */ var _console_console_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./console/console.svg */ "./src/lib/libraries/extensions/console/console.svg");
 /* harmony import */ var _console_console_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_console_console_svg__WEBPACK_IMPORTED_MODULE_42__);
+/* harmony import */ var _browser_ada_png__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./browser/ada.png */ "./src/lib/libraries/extensions/browser/ada.png");
+/* harmony import */ var _browser_ada_png__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_browser_ada_png__WEBPACK_IMPORTED_MODULE_43__);
 
 
 
@@ -33737,6 +33750,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
 
 
 
@@ -34091,6 +34105,18 @@ __webpack_require__.r(__webpack_exports__);
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Console SDK (including controller support)",
     id: "gui.extension.gamepad.description"
+  }),
+  featured: true,
+  collaborator: 'The_Mad_Punter',
+  incompatibleWithScratch: true
+}, {
+  name: "Browser SDK",
+  tags: ["utils", "sdks"],
+  extensionId: 'adabrowser',
+  iconURL: _browser_ada_png__WEBPACK_IMPORTED_MODULE_43___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Change the web browser! Perfect for web apps.",
+    id: "gui.extension.adabrowser.description"
   }),
   featured: true,
   collaborator: 'The_Mad_Punter',
