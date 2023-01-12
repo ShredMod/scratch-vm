@@ -1445,7 +1445,7 @@ const CloudVariableBadge = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__
   className: _cloud_variable_badge_css__WEBPACK_IMPORTED_MODULE_3___default.a.text
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"] // eslint-disable-next-line max-len
 , {
-  defaultMessage: "This project uses cloud variables. TurboWarp uses its own cloud variable server independent of Scratch. Beware of impersonation as anyone can change their username to anything. {learnMore}",
+  defaultMessage: "This project uses cloud variables. ShredMod uses its own cloud variable server independent of Scratch. Beware of impersonation as anyone can change their username to anything. {learnMore}",
   id: "tw.cloudVariableBadge",
   values: {
     learnMore: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
