@@ -33587,6 +33587,17 @@ module.exports = __webpack_require__.p + "static/assets/6608d56b3dce2738b2b13756
 
 /***/ }),
 
+/***/ "./src/lib/libraries/extensions/files/files.png":
+/*!******************************************************!*\
+  !*** ./src/lib/libraries/extensions/files/files.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/333b5b49e1753ebb8908212c06a354a3.png";
+
+/***/ }),
+
 /***/ "./src/lib/libraries/extensions/gameutils/gameutils.svg":
 /*!**************************************************************!*\
   !*** ./src/lib/libraries/extensions/gameutils/gameutils.svg ***!
@@ -33727,6 +33738,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _console_console_svg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_console_console_svg__WEBPACK_IMPORTED_MODULE_42__);
 /* harmony import */ var _browser_ada_png__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./browser/ada.png */ "./src/lib/libraries/extensions/browser/ada.png");
 /* harmony import */ var _browser_ada_png__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_browser_ada_png__WEBPACK_IMPORTED_MODULE_43__);
+/* harmony import */ var _files_files_png__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./files/files.png */ "./src/lib/libraries/extensions/files/files.png");
+/* harmony import */ var _files_files_png__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_files_files_png__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var _json_json_png__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./json/json.png */ "./src/lib/libraries/extensions/json/json.png");
+/* harmony import */ var _json_json_png__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_json_json_png__WEBPACK_IMPORTED_MODULE_45__);
 
 
 
@@ -33750,6 +33765,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
+
 
 
 
@@ -34119,7 +34136,31 @@ __webpack_require__.r(__webpack_exports__);
     id: "gui.extension.adabrowser.description"
   }),
   featured: true,
-  collaborator: 'The_Mad_Punter',
+  collaborator: 'Adacraft',
+  incompatibleWithScratch: true
+}, {
+  name: "Files SDK",
+  tags: ["utils", "sdks"],
+  extensionId: 'jgFiles',
+  iconURL: _files_files_png__WEBPACK_IMPORTED_MODULE_44___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Files in Scratch.",
+    id: "gui.extension.jgFiles.description"
+  }),
+  featured: true,
+  collaborator: 'Adacraft',
+  incompatibleWithScratch: true
+}, {
+  name: "JSON & Arrays",
+  tags: ["utils"],
+  extensionId: 'jgJson',
+  iconURL: _json_json_png__WEBPACK_IMPORTED_MODULE_45___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Parse JSON in Scratch - and arrays too!",
+    id: "gui.extension.jgJson.description"
+  }),
+  featured: true,
+  collaborator: 'PenguinMod',
   incompatibleWithScratch: true
 }]);
 
@@ -34133,6 +34174,17 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/59428ca5b48ecdf60132ddbc82baaa4a.svg";
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/json/json.png":
+/*!****************************************************!*\
+  !*** ./src/lib/libraries/extensions/json/json.png ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/44541df59fd6a8070d12e95c6c4b63bd.png";
 
 /***/ }),
 
