@@ -40,7 +40,7 @@ const builtinExtensions = {
     Gamepad: () => require('../extensions/console'),
     adabrowser: () => require('../extensions/ada_browser'),
     jgFiles: () => require('../extensions/jg_files'),
-    jgJson: () => require('../extensions/jg_json'),
+    jgJSON: () => require('../extensions/jg_json'),
 };
 
 /**
