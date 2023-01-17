@@ -48,7 +48,7 @@ const builtinExtensions = {
  * @property {ArgumentType} type - the type of value this argument can take
  * @property {*|undefined} default - the default value of this argument (default: blank)
  */
-
+//
 /**
  * @typedef {object} ConvertedBlockInfo - Raw extension block data paired with processed data ready for scratch-blocks
  * @property {ExtensionBlockMetadata} info - the raw block info
