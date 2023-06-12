@@ -9437,6 +9437,7 @@ class LibraryComponent extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Comp
       description: dataItem.description,
       disabled: dataItem.disabled,
       extensionId: dataItem.extensionId,
+      href: dataItem.href,
       featured: dataItem.featured,
       hidden: dataItem.hidden,
       iconMd5: dataItem.costumes ? dataItem.costumes[0].md5ext : dataItem.md5ext,
@@ -22067,7 +22068,11 @@ class LibraryItem extends react__WEBPACK_IMPORTED_MODULE_2___default.a.PureCompo
 
   handleClick(e) {
     if (!this.props.disabled) {
-      this.props.onSelect(this.props.id);
+      if (this.props.href) {
+        window.open(this.props.href);
+      } else {
+        this.props.onSelect(this.props.id);
+      }
     }
 
     e.preventDefault();
@@ -22192,6 +22197,7 @@ LibraryItem.propTypes = {
   extensionId: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   featured: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
   hidden: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
+  href: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   iconMd5: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   iconRawURL: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   icons: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
@@ -33609,6 +33615,17 @@ module.exports = __webpack_require__.p + "static/assets/333b5b49e1753ebb8908212c
 
 /***/ }),
 
+/***/ "./src/lib/libraries/extensions/gallery/gallery.svg":
+/*!**********************************************************!*\
+  !*** ./src/lib/libraries/extensions/gallery/gallery.svg ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/8359ad19938f6ba80393e647e9b0cc1f.svg";
+
+/***/ }),
+
 /***/ "./src/lib/libraries/extensions/gameutils/gameutils.svg":
 /*!**************************************************************!*\
   !*** ./src/lib/libraries/extensions/gameutils/gameutils.svg ***!
@@ -33761,6 +33778,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _jgWebsiteRequests_websiteRequests_png__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(_jgWebsiteRequests_websiteRequests_png__WEBPACK_IMPORTED_MODULE_48__);
 /* harmony import */ var _animatedtext_text_extension_png__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./animatedtext/text extension.png */ "./src/lib/libraries/extensions/animatedtext/text extension.png");
 /* harmony import */ var _animatedtext_text_extension_png__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(_animatedtext_text_extension_png__WEBPACK_IMPORTED_MODULE_49__);
+/* harmony import */ var _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./gallery/gallery.svg */ "./src/lib/libraries/extensions/gallery/gallery.svg");
+/* harmony import */ var _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(_gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_50__);
 
 
 
@@ -33784,6 +33803,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // TODO: Rename file names to match variable/prop names?
+
 
 
 
@@ -34257,6 +34277,19 @@ __webpack_require__.r(__webpack_exports__);
   featured: true,
   collaborator: 'All sprite makers',
   incompatibleWithScratch: false
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "TurboWarp Extension Gallery",
+    id: "tw.extensionGallery.name"
+  }),
+  href: 'https://extensions.turbowarp.org/',
+  extensionId: '',
+  iconURL: _gallery_gallery_svg__WEBPACK_IMPORTED_MODULE_50___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Find advanced custom extensions on extensions.turbowarp.org.",
+    id: "tw.extensionGallery.description"
+  }),
+  featured: true
 }]);
 
 /***/ }),
