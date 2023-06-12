@@ -44325,17 +44325,6 @@ const updateMetrics = function updateMetrics(metrics) {
 
 /***/ }),
 
-/***/ 10:
-/*!*******************************!*\
-  !*** ./lib/locales (ignored) ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
 /***/ 2:
 /*!*******************************!*\
   !*** ./lib/locales (ignored) ***!
@@ -44348,9 +44337,9 @@ const updateMetrics = function updateMetrics(metrics) {
 /***/ }),
 
 /***/ 3:
-/*!**********************!*\
-  !*** util (ignored) ***!
-  \**********************/
+/*!*********************************!*\
+  !*** readable-stream (ignored) ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -44370,9 +44359,9 @@ const updateMetrics = function updateMetrics(metrics) {
 /***/ }),
 
 /***/ 5:
-/*!*********************************!*\
-  !*** readable-stream (ignored) ***!
-  \*********************************/
+/*!**********************!*\
+  !*** util (ignored) ***!
+  \**********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -44395,28 +44384,6 @@ const updateMetrics = function updateMetrics(metrics) {
 /*!**********************************!*\
   !*** ./node/extend.js (ignored) ***!
   \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 8:
-/*!*****************************************!*\
-  !*** ../locale-data/index.js (ignored) ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 9:
-/*!*******************************!*\
-  !*** ./lib/locales (ignored) ***!
-  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
